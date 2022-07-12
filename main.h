@@ -2,7 +2,6 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
-
 /**
  * struct vtype - struct vtype
  * @tp: tp
@@ -76,6 +75,5 @@ void format_b(va_list valist, char *buffer, int *index);
 void format_r(va_list valist, char *buffer, int *index);
 
 void format_R(va_list valist, char *buffer, int *index);
-
 
 #endif  /* _MAIN_H */
