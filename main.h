@@ -16,7 +16,7 @@ typedef struct vtype
 
 int _printf(const char *format, ...);
 
-int write_char(char);
+int _write_char(char c);
 
 void print_char(va_list valist);
 
