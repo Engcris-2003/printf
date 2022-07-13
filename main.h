@@ -29,5 +29,5 @@ int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
 int printf_srev(va_list args);
-void check_null(const char *);
+
 #endif  /* _MAIN_H */
